@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teliani Valley follows Georgian tradition of winemaking and at the same time, uses modern technologies, knowledge of young, motivated professionals. In May 2004 Teliani Valley established strategic relationship with European Bank for Reconstruction and Development. The latter has purchased the shares of Teliani Valley. This investment enabled the company to build a new wine factory, create new vineyards in the best micro zones of Georgia, improve marketing initiatives and increase sales of superior quality wine locally and abroad, partially renew equipment and increase capacity. Company replaced an outdate production line with a western analogy and installed modern, Italian grape processing equipment in a considerably short period of time. Pneumatic presses were installed in order to improve the quality of wine. A strict quality control system was established on every level of production, from grape selection to bottling. On February 23rd, 2005 Georgian Chamber of Trade and Industry named Teliani Valley as the best company of the year."
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/ic_launcher"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Location: 121 Telliani ave.\nTap to navigate"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/ic_launcher"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Working hours: 9am to 7pm \nWeekdays"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
